@@ -5,94 +5,16 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: grey;
-
-}
-
-.experience {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.timeline {
-    position: relative;
-    padding: 2rem 0;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    background: #fff;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.timeline-item {
-    position: relative;
-    width: 50%;
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.timeline-item:hover {
-    transform: translateX(10px);
-}
-
-.timeline-item:nth-child(odd) {
-    left: 0;
-}
-
-.timeline-item:nth-child(even) {
-    left: 50%;
-}
-
-.timeline-marker {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.timeline-content {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-content h3 {
-    color: #fff;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-
-.timeline-content .description {
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.timeline-item.active .description {
-    opacity: 1;
+    background-color: rgb(255, 255, 255);
 }
 
 /* The images and title sections are in this area */
 .home-content {
-    outline:2px solid blue;
+    /* outline:2px solid blue; */
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 5rem;
+    
 }
 
 .home-content .profile-image {
@@ -133,7 +55,7 @@ body {
     
 /* Navigation */
 nav {
-    outline: 2px solid red;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .nav-content {
     display: flex;
@@ -171,21 +93,21 @@ nav {
 
 /* About */
 .about-content {
-    outline: 2px solid rgb(0, 255, 0);
+    /* outline: 2px solid rgb(0, 255, 0); */
     padding: 2rem;
 }
 
 .experiences-content {
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
     padding: 2rem;
 }
 
 .projects-content {
-    outline: 2px solid orange;
+    /* outline: 2px solid orange; */
     padding: 2rem;
 }
 
 .contact-content {
-    outline: 2px solid purple;
+    /* outline: 2px solid purple; */
     padding: 2rem;
 }
